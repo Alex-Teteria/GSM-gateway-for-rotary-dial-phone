@@ -18,6 +18,10 @@
 ## Зовнішній вигляд монтажу прототипу шлюза
 ![20251001_122334](https://github.com/user-attachments/assets/136ac297-dace-4a1c-929e-7908ce6c6339)  
 
+## Перевірка роботи GSM-шлюза   
+
+[Вхідні дзвінки](https://youtu.be/DODJJhKN8C8)  
+
 
 
 
