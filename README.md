@@ -20,7 +20,8 @@
 
 ## Перевірка роботи GSM-шлюза   
 
-[Вхідні дзвінки](https://youtu.be/DODJJhKN8C8)  
+[Вхідний дзвінок](https://youtu.be/DODJJhKN8C8)  
+[Вихідний дзвінок](https://youtu.be/qnDh9I-_DR8)  
 
 
 
