@@ -1,3 +1,8 @@
+# This code was generated in part with the assistance of artificial intelligence (GitHub Copilot).
+# Reviewed, adapted and tested on Pi Pico with RP2040 by Olexandr Teteria.
+# 05.10.2025
+# Released under the MIT license
+
 from machine import UART, Pin, Timer
 import time
 import sys
@@ -101,5 +106,6 @@ class SIM800L:
         else:
             print("Exit program via error module or bad signal level")
             sys.exit()
+
 
 
