@@ -1,4 +1,4 @@
-# Author: Olexandr Teteria
+# Author: Oleksandr Teteria
 # v0.2
 # 11.07.2025
 # Implemented and tested on Pi Pico with RP2040
@@ -288,3 +288,4 @@ if __name__ == '__main__':
         
 
     
+
