@@ -1,5 +1,4 @@
-# This code was generated in part with the assistance of artificial intelligence (AI)
-# GitHub Copilot.
+# This code was generated in part with the assistance of artificial intelligence (GitHub Copilot).
 # Reviewed, adapted and tested on Pi Pico with RP2040 by Olexandr Teteria.
 # 05.10.2025
 # Released under the MIT license
@@ -111,4 +110,5 @@ class LCDI2C16x2:
     def backlight_off(self):
         self.backlight = self.LCD_NOBACKLIGHT
         self._write(0)
+
         
