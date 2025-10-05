@@ -24,7 +24,8 @@ tim_ring = Timer()
 filename = "phone_directory.json" # файл телефонний довідник
 with open(filename, 'r', encoding='utf-8') as f:
     phone_directory = json.load(f)
-voice_menu = '0800205433'
+# сюди будуть дзвінки, при відсутності короткого номера в довіднику:
+voice_menu = '0800205433'  # як приклад, для оператора Lifecell 
 
 # dial tone enable func
 def dial_tone_enable():
@@ -294,4 +295,5 @@ uart.write(ber + '\n')
 # Run the main coroutine
 asyncio.run(main())
     
+
 
