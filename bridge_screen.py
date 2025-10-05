@@ -1,3 +1,9 @@
+# Author: Oleksandr Teteria
+# v0.2
+# 05.10.2025
+# Implemented and tested on Pi Pico with RP2040
+# Released under the MIT license
+
 from machine import I2C, Pin, UART, Timer
 from lcd_i2c_16x2 import LCDI2C16x2
 import json
@@ -59,4 +65,5 @@ while True:
             lcd.clear()
             lcd.write('Error!')
             print(data)
+
 
