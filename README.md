@@ -13,6 +13,25 @@
 6) для підключення до мережі GSM використано модуль SIM800L https://www.mini-tech.com.ua/download/datasheet/communications/SIM800L_Hardware_Design_V1.00.pdf
 7) реалізовано короткий набір із трьох цифр, де перша цифра "2" визначає, що подальший набір буде коротким; відповідність коротких наборів та їх реальних номерів попередньо повинна бути визначена у файлі phone_directory.json
 8) для індикації номерів вхідних дзвінків та поточного стану шлюза підключається виносний індикаторний блок на базі екрану типу LCD 16x2
+
+## AI-Generated Code Notice  
+Some portions of this project’s codebase were generated with the assistance of AI tools (GitHub Copilot). All AI-generated code has been reviewed and adapted by a human prior to inclusion.
+
+## Призначення файлів  
+
+| File | Contain | Purpose |
+| --- |  ---: |  --- |
+| lib |  |Каталог, який містить необхідні модулі |
+|  | measuring_time_intervals.py | Модуль для вимірювання часових інтервалів  |
+|  | sim800L_lib.py | Модуль для роботи з SIM800L.  Даний код був згенерований за допомогою інструментів штучного інтелекту (GitHub Copilot). В подальшому був перевірений та адаптований людиною перед використанням.  |
+|  | phone_bridge_lib.py | містить бібліотеки класів: Send_call - формує сигнал виклику 25 Гц, Dial_tone - формує сигнал 425Гц (dial tone), Handset - для відслідковування події зняття та звільнення слухавки  |
+|  | lcd_i2c_16x2.py | містить клас для керування LCD-дисплеєм 16x2 через I2C. Даний код був згенерований за допомогою інструментів штучного інтелекту (GitHub Copilot). В подальшому був перевірений та адаптований людиною перед використанням.  |
+||  |  |
+| phone_bridge.py |  | Основний код GSM-шлюза  |
+| phone_directory.json |  | Приклад json-файла телефонного довідника для використання коротких наборів |
+| bridge_screen.py |  | Код для роботи виносного LCD-дисплея  |
+
+
 ## Принципова схема
 ![20250926_112742](https://github.com/user-attachments/assets/fa6f44ce-3b66-4fe3-a6e5-d61ed8f8b863)  
 ## Зовнішній вигляд монтажу прототипу
