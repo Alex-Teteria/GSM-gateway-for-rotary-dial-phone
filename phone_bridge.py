@@ -1,3 +1,9 @@
+# Author: Oleksandr Teteria
+# v0.2
+# 05.10.2025
+# Implemented and tested on Pi Pico with RP2040
+# Released under the MIT license
+
 import machine, time
 from machine import Pin, Timer, UART
 import json
@@ -288,3 +294,4 @@ uart.write(ber + '\n')
 # Run the main coroutine
 asyncio.run(main())
     
+
